@@ -14,6 +14,8 @@ public class TestCodility {
 		Assert.assertArrayEquals(new int[]{9, 7, 6, 3, 8}, CyclicRotation.solution(new int[] {3, 8, 9, 7, 6}, 3));
 		Assert.assertEquals(6, PermMissingElem.solution(new int[] {1,2,3,4,5}));
 		Assert.assertEquals(4, PermMissingElem.solution(new int[] {2,3,1,5}));
+		Assert.assertEquals(20, TapeEquilibrium.solution(new int[] {-10, -20, -30, -40, 100}));
+		Assert.assertEquals(1, TapeEquilibrium.solution(new int[] {3,1,2,4,3}));
 		
 	}
 	
