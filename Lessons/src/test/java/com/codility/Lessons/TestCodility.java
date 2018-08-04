@@ -16,6 +16,8 @@ public class TestCodility {
 		Assert.assertEquals(4, PermMissingElem.solution(new int[] {2,3,1,5}));
 		Assert.assertEquals(20, TapeEquilibrium.solution(new int[] {-10, -20, -30, -40, 100}));
 		Assert.assertEquals(1, TapeEquilibrium.solution(new int[] {3,1,2,4,3}));
+		Assert.assertEquals(0, PermCheck.solution(new int[] {3,1,2,4,12}));
+		Assert.assertEquals(1, PermCheck.solution(new int[] {1,2,3,4,5}));
 		
 	}
 	
